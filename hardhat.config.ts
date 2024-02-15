@@ -27,24 +27,25 @@ module.exports = {
         cache: "./cache",
         artifacts: "./artifacts",
     },
+    //
     networks: {
         crossbell: {
-            url: "https://rpc.crossbell.io",
-            // accounts: [process.env.PRIVATE_KEY]
+            url: "https://api.avax-test.network/ext/bc/C/rpc",
+             accounts: [process.env.PRIVATE_KEY]
         },
     },
 
     etherscan: {
         apiKey: {
-            crossbell: "your API key",
+            snowtrace: "snowtrace",
         },
         customChains: [
             {
-                network: "crossbell",
-                chainId: 3737,
+                network: "snowtrace",
+                chainId: 43113,
                 urls: {
-                    apiURL: "https://scan.crossbell.io/api",
-                    browserURL: "https://scan.crossbell.io",
+                    apiURL: "https://api.routescan.io/v2/network/testnet/evm/43113/etherscan",
+                    browserURL: "https://testnet.snowtrace.io"
                 },
             },
         ],

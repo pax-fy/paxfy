@@ -1,8 +1,8 @@
 {
-    "name": "Crossbell-Contracts",
+    "name": "Paxfy-Contracts",
     "license": "MIT",
     "version": "2.1.1",
-    "repository": "git@github.com:Crossbell-Box/Crossbell-Contracts.git",
+    "repository": "https://github.com/pax-fy/paxfy-contracts",
     "devDependencies": {
         "@nomiclabs/hardhat-ethers": "^2.0.6",
         "@nomiclabs/hardhat-etherscan": "^3.1.0",

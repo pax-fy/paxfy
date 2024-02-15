@@ -10,7 +10,7 @@ cache_hardhat
 cache_foundry
 artifacts_hardhat
 artifacts_foundry
-
+deploy-config
 # Ignore Environment Variables!
 .env
 .env.prod
