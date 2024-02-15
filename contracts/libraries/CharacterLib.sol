@@ -52,7 +52,7 @@ library CharacterLib {
             ILinkModule4Character(linkModule).initializeLinkModule(characterId, linkModuleInitData);
         }
 
-        emit Events.CharacterCreated(characterId, msg.sender, to, handle, block.timestamp);
+        emit Events.CharacterCreated(characterId, msg.sender, to, handle, uri, block.timestamp);
     }
 
     /**

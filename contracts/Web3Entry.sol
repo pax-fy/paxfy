@@ -347,7 +347,7 @@ contract Web3Entry is
             vars.linkModuleInitData
         );
     }
-
+  // 
     /// @inheritdoc IWeb3Entry
     function mintNote(
         DataTypes.MintNoteData calldata vars

@@ -16,6 +16,7 @@ library Events {
         address indexed creator,
         address indexed to,
         string handle,
+        string uri,
         uint256 timestamp
     );
 
@@ -52,6 +53,7 @@ library Events {
         uint256 indexed characterId,
         uint256 indexed noteId,
         bytes32 indexed linkKey,
+        string contentUri,
         bytes32 linkItemType,
         bytes data
     );

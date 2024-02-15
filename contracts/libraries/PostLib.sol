@@ -49,7 +49,7 @@ library PostLib {
             _note
         );
 
-        emit Events.PostNote(vars.characterId, noteId, linkKey, linkItemType, data);
+        emit Events.PostNote(vars.characterId, noteId, linkKey, vars.contentUri, linkItemType, data);
     }
 
     function mintNote(
