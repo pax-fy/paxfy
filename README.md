@@ -3,4 +3,5 @@
 </p>
 
 <h1  align='center'>Paxfy</h1>
+<p>the decentralized video sharing platform that's revolutionizing the way you connect with content creators and own your digital experience!</p>
 
