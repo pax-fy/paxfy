@@ -12,4 +12,26 @@ In a world dominated by centralized social media platforms, Paxfy emerges as a b
    - **Demo video** : [Youtube](https://youtu.be/6ke3u9Z9pE4)
    - **Smart contract repo** : [SC repo](https://github.com/pax-fy/paxfy)
    - **Front-end app repo**  [Front-end repo](https://github.com/pax-fy/web_app)
+ 
 
+## Development
+
+Install foundry if you don't have one:
+
+# install foundry
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
+Compile and run tests:
+  ## create .env  file and add information you can copy the instance frm deployment config from avalanche.json file
+yarn
+yarn test
+#run single test function using --match-test
+forge test --match-test testXXX  -vvvvv
+#run single test contract using --match-contract
+forge test --match-contract xxxTest  -vvvvv
+#run a group of tests using --match-path
+forge test --match-path test/...  -vvvvv
+Deploy:
+
+forge script scripts/Deploy.s.sol:Deploy --private-key $PRIVATE_KEY --broadcast --legacy --rpc-url $RPC_URL --ffi                   
+forge script scripts/Deploy.s.sol:Deploy --sig 'sync
