@@ -18,7 +18,7 @@ In a world dominated by centralized social media platforms, Paxfy emerges as a b
 
 Install foundry if you don't have one:
 
-# install foundry
+## install foundry
 curl -L https://foundry.paradigm.xyz | bash
 foundryup
 Compile and run tests:
